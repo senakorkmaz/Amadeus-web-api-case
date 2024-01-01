@@ -1,0 +1,1 @@
+# Amadeus-web-api-case

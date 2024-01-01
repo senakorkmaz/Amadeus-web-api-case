@@ -1,0 +1,19 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e:all": "npx playwright test tests/ --project=all-browsers-and-tests",
+    "test:e2e:dev": "npx playwright test tests/ --project=chromium --headed --retries=0",
+    "test:e2e:smoke": "npx playwright test tests/ --grep @smoke --project=chromium",
+    "test:e2e:non-smoke": "npx playwright test tests/ --grep-invert @smoke --project=firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  }
+}

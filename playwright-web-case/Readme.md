@@ -20,3 +20,4 @@ On your terminal, type:
 3. For run all browser `npm run test:e2e:all`
 4. For run only smoke tag test `npm run test:e2e:smoke`
 5. For run not with smoke tag test `npm run test:e2e:none-smoke`
+After run test you can check index.html
